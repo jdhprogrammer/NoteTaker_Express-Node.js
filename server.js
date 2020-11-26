@@ -2,44 +2,55 @@
 var express = require("express");
 var path = require("path");
 var fs = require("fs");
+const db = require('./db/db.json');
+
+var PORT = process.env.PORT || 9000;
 
 var app = express();
-var PORT = process.env.PORT || 9000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-var notes = [];
 
 app.get("/notes", function(req, res) {
-    res.sendFile(path.join(_dirname, "public/notes.html"));
+    res.sendFile(path.join(__dirname, "public/notes.html"));
 });
 
 app.get("*", function(req, res) {
-    res.sendFile(path.join(_dirname, "public/index.html"));
+    res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
-app.get("/api/notes"),
-    function(req, res) {
-        fs.readFileSync("./db/db.json", JSON, function(err, savedNotes) {
-            if (err) {
-                console.log(err)
-            } else {
-                res.json(savedNotes)
-            };
-        });
-    };
+// Read from db.json
+app.get("/api/notes", function(req, res) {
+    res.json(db.map((note, i) => ({...note, id: i + "" })))
+});
 
-app.post("/api/notes"),
-    function(req, res) {
-        var newNote = req.body;
+// Append to db.json
+app.post("/api/notes", function(req, res) {
 
-        fs.appendFile("/db/db.json", newNote, (err) => {
-            if (err) {
-                console.log(err)
-            } else {
-                res.json(newNote)
-            }
-        })
-    }
+    db.push(req.body);
+
+    fs.writeFileSync("./db/db.json", JSON.stringify(db, null, '\t'))
+
+    res.json(req.body);
+});
+
+// Delete note from db.json  ????
+app.delete("/api/notes/:id", function(req, res) {
+    // var noteId = req.params.name;
+    // console.log(noteId); or... 
+    db.splice(req.params.id, 1);
+
+    // for (var i = 0; i < savedNotes.length; i++) {
+    //     if (chosen === notes[i].routeName) {
+    //         return res.json(notes[i]);});
+
+    fs.writeFileSync(".db/db.json"), JSON.stringify(db, null, '\t');
+
+    res.status(200).end();
+});
+
+app.listen(PORT, function() {
+    console.log("APP listening on PORT: " + PORT);
+});
