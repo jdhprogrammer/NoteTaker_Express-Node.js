@@ -16,6 +16,12 @@ body {
     cursor: pointer;
 }
 
+.navbar,
+.bg-dark,
+.navbar-dark {
+    background-color: rgb(42, 134, 255);
+}
+
 .note-textarea,
 .note-title {
     color: #000000;
