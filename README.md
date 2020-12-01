@@ -50,7 +50,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 David Harris - jdh.programmer@gmail.com
 
-Project Link: [https://github.com/jdhprogrammer/CLI_README_Generator](https://github.com/jdhprogrammer/CLI_README_Generator)
+Project Link: [https://jdhprogrammer-note-taker.herokuapp.com/](https://jdhprogrammer-note-taker.herokuapp.com/)
 
 <br>
 
