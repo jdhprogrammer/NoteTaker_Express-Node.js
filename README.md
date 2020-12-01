@@ -31,17 +31,27 @@ Application should allow users to view previously saved notes.
 
 Application should allow users to delete previously saved notes.
 
-### References
+### References  
+  
+https://codewithhugo.com/parse-express-json-form-body/  
+http://expressjs.com/en/5x/api.html#app.delete.method  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map  
+https://www.sitepoint.com/premium/books/javascript-best-practice/read/1/jyqyop77  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify  
 
-https://codewithhugo.com/parse-express-json-form-body/
-http://expressjs.com/en/5x/api.html#app.delete.method
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-https://www.sitepoint.com/premium/books/javascript-best-practice/read/1/jyqyop77
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+### Screenshots  
+  
+![Screenshot of NoteTaker_Express-NodeJS](public/assets/images/screenshots/NoteTaker_Page.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](public/assets/images/screenshots/NoteTaker_SavingFilestoDB.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](public/assets/images/screenshots/Delete_Notes.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](public/assets/images/screenshots/NoteTaker_Deployed_and_Running-OnHeroku.jpeg?raw=true "NoteTaker_Express-NodeJS")
 
-### Screenshots
+## Contact  
 
-![Screenshot of NoteTaker_Express-NodeJS](assets/images/screenshots/NoteTaker_Page.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/NoteTaker_SavingFilestoDB.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/Delete_Notes.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/NoteTaker_Deployed_and_Running-OnHeroku.jpeg?raw=true "NoteTaker_Express-NodeJS")
+David Harris - jdh.programmer@gmail.com
+
+Project Link: [https://github.com/jdhprogrammer/CLI_README_Generator](https://github.com/jdhprogrammer/CLI_README_Generator)
+
+<br>
+
+Copyright © 2020 [DAVID HARRIS](https://github.com/jdhprogrammer)
