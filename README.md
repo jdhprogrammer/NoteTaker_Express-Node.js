@@ -41,7 +41,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ### Screenshots
 
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/Engineering_Team_Prompts.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/Engineering_Team_full-team_pre_html_edits.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/All_Tests_Passed.jpeg?raw=true "NoteTaker_Express-NodeJS")
-![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/Engineering_Team_Render_function.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](assets/images/screenshots/NoteTaker_Page.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/NoteTaker_SavingFilestoDB.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/Delete_Notes.jpeg?raw=true "NoteTaker_Express-NodeJS")
+![Screenshot of NoteTaker_Express-NodeJS](Assets/Screenshots/NoteTaker_Deployed_and_Running-OnHeroku.jpeg?raw=true "NoteTaker_Express-NodeJS")
